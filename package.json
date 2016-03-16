@@ -6,7 +6,8 @@
   "directories": {},
   "scripts": {
     "test": "karma start --single-run --browsers PhantomJS",
-    "browserify": "browserify ./lib/bbc/a11y/js/a11y.js -o ./lib/bbc/a11y/js/bundle.js"
+    "browserify": "browserify ./lib/bbc/a11y/js/a11y.js -o ./lib/bbc/a11y/js/bundle.js",
+    "standards-json": "node -e \"console.log(require('./lib/bbc/a11y/js/standards').json())\""
   },
   "repository": {
     "type": "git",
